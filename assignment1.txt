@@ -1,0 +1,8 @@
+name = input("What is your name ? : ").title()
+
+if name == "Bruce" :
+    message = "Hello, {name1}! The password id : @12".format(name1=name)
+else:
+    message = "Hello, {name1}! See you later.".format(name1=name)
+
+print(message)
